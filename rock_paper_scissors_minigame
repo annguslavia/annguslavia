@@ -1,0 +1,37 @@
+import random
+
+def get_bot_choice():
+    return random.choice(["rock", "paper", "scissors"])
+
+def determine_winner(user, bot):
+    if user == bot:
+        return "It's a tie!"
+    elif (user == "rock" and bot == "scissors") or \
+         (user == "scissors" and bot == "paper") or \
+         (user == "paper" and bot == "rock"):
+        return "You win!"
+    else:
+        return "Bot wins!"
+
+def play_game():
+    print("Welcome to Rock, Paper, Scissors! Type 'quit' to stop playing.")
+    
+    while True:
+        user_choice = input("Choose rock, paper, or scissors: ").lower()
+        
+        if user_choice == "quit":
+            print("Thanks for playing!")
+            break
+        elif user_choice not in ["rock", "paper", "scissors"]:
+            print("Invalid choice, try again.")
+            continue
+        
+        bot_choice = get_bot_choice()
+        print(f"Bot chose: {bot_choice}")
+        
+        result = determine_winner(user_choice, bot_choice)
+        print(result)
+        print("-" * 30)
+
+# Run the game
+play_game()
