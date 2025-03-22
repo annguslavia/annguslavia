@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @annguslavia
-- 👀 I’m interested in writing, reading, and coding
-- 🌱 I’m currently learning introduction to cybersecurity and to computer science
+- 👀 I’m interested in writing, reading, coding, programming, cybersecurity, software engineering, AI, and web development
+- 🌱 I’m currently learning introduction to cybersecurity and to computer science on HarvardX
 - 💞️ I’m looking to collaborate on anything I can
 - 📫 How to reach me, you can contact me online by this same username
 - 😄 Pronouns: she/her
