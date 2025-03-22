@@ -1,3 +1,4 @@
+game.py.
 import random
 
 def get_bot_choice():
